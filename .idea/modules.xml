@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sshkim.iml" filepath="$PROJECT_DIR$/.idea/modules/sshkim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sshkim_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sshkim_main.iml" group="sshkim" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sshkim_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sshkim_test.iml" group="sshkim" />
+    </modules>
+  </component>
+</project>
