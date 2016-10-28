@@ -12,16 +12,16 @@ import sshkim.crawling.network.service.ApplicationServerHandler;
 /**
  * Created by sshkim on 2016. 10. 11..
  */
-public class Application {
+public class NettyNetwork {
 
-    private volatile static Application uniqueInstance = null;
+    private volatile static NettyNetwork uniqueInstance = null;
 
     private int port = 8080;
 
-    public static Application getInstance() {
-        synchronized (Application.class) {
+    public static NettyNetwork getInstance() {
+        synchronized (NettyNetwork.class) {
             if (uniqueInstance == null) {
-                uniqueInstance = new Application();
+                uniqueInstance = new NettyNetwork();
             }
         }
         return uniqueInstance;

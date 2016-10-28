@@ -3,13 +3,13 @@ package sshkim.crawling.network;
 /**
  * Created by sshkim on 2016. 10. 11..
  */
-public class AppInitializer {
+public class TestNettyNetwork {
 
     public static void main(String[] args){
 
-        Application application = Application.getInstance();
+        NettyNetwork nettyNetwork = NettyNetwork.getInstance();
         try {
-            application.start();
+            nettyNetwork.start();
 
         } catch (Exception e) {
             System.out.println("Error");

@@ -1,6 +1,5 @@
 package sshkim.crawling;
 
-import sshkim.crawling.master.CrawlingAdministration;
 import sshkim.crawling.master.MasterCrawling;
 
 /**
@@ -16,7 +15,7 @@ public class CrawlingInitializer {
     }
 
     private void start() {
-        CrawlingAdministration masterCrawling = new MasterCrawling();
+        MasterCrawling masterCrawling = new MasterCrawling();
 
 
     }
