@@ -6,15 +6,15 @@ import sshkim.crawling.network.NettyNetwork;
 /**
  * Created by sshkim on 2016. 10. 26..
  */
-public class MasterCrawling extends AbstractCrawling {
+public class MasterInitializer extends AbstractCrawling {
 
-    public volatile static MasterCrawling uniqueInstance;
+    public volatile static MasterInitializer uniqueInstance;
 
-    public static MasterCrawling getInstance() {
+    public static MasterInitializer getInstance() {
 
-        synchronized (MasterCrawling.class) {
+        synchronized (MasterInitializer.class) {
             if (uniqueInstance == null) {
-                uniqueInstance = new MasterCrawling();
+                uniqueInstance = new MasterInitializer();
             }
         }
         return uniqueInstance;

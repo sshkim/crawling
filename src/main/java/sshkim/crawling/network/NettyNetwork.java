@@ -45,7 +45,8 @@ public class NettyNetwork {
                             channel.pipeline().addLast(new ApplicationServerHandler());
                         }
                     })
-                    .option(ChannelOption.SO_BACKLOG, 128).childOption(ChannelOption.SO_KEEPALIVE, true);
+                    .option(ChannelOption.SO_BACKLOG, 128)
+                    .childOption(ChannelOption.SO_KEEPALIVE, true);
         } finally {
             workerGroup.shutdownGracefully();
             bossGroup.shutdownGracefully();

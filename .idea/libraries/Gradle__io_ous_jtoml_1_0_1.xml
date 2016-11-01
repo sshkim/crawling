@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ous:jtoml:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ous/jtoml/1.0.1/6e47be54920bfd0d492e8e150cb06a077f66f1bf/jtoml-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ous/jtoml/1.0.1/83134f364e00ea2da57f571bcc74df76d6fe0ce9/jtoml-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

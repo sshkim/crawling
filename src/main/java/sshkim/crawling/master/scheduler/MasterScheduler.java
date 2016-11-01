@@ -2,6 +2,7 @@ package sshkim.crawling.master.scheduler;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
+import sshkim.crawling.Const;
 import sshkim.crawling.master.server.MasterCrawlingProtocol;
 
 /**
@@ -32,7 +33,7 @@ public class MasterScheduler {
         }
 
         try {
-            addScheduleJob(MasterCrawlingProtocol.PER_HOUR_CRAWLING, "");
+            addScheduleJob(MasterCrawlingProtocol.PER_HOUR_CRAWLING, Const.CRAWLING_CRON_TIME);
         } catch (SchedulerException e) {
             e.printStackTrace();
         }
