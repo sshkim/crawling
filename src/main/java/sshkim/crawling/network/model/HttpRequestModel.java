@@ -14,4 +14,15 @@ public class HttpRequestModel {
     private String uri;
     private Map<String, String> parameterMap = new HashMap<String, String>();
 
+    public void setHttpMethod(HttpMethod httpMethod) {
+        this.httpMethod = httpMethod;
+    }
+
+    public void setUri(String uri) {
+        this.uri = uri;
+    }
+
+    public String getUri() {
+        return uri;
+    }
 }

@@ -36,6 +36,9 @@ public class CrawlingApplication {
     }
 
     public static void main(String[] args) {
+        if(args.length < 1)
+            return;
+
         try {
             CrawlingApplication crawlingApplication = new CrawlingApplication().getInstance();
             crawlingApplication.start(args[0]);
